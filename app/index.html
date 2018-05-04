@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="lib/tobii_essential.js"></script>
+    <script src="js/db_Setup.js"></script>
+    <script src="js/database.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div id="menuDiv">
+
+    </div>
+    <div id="memberDiv">
+        <table id="inputTable">
+            <tr>
+                <th>Legi</th><th>Vorname</th><th>Nachname</th><th>Organ</th><th>Stimmkarte</th>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td>
+                    <select><option value="testOpt">test option</option></select>
+                </td>
+                <td><input type="text"></td>
+            </tr>
+        </table>
+        <table id="memberTable">
+            <thead id="memberHead">
+                <tr>
+                    <th>Legi</th><th>Vorname</th><th>Nachname</th><th>Organ</th><th>Mayor</th><th>Stimmkarte</th>
+                </tr>
+                <tr>
+                    <th colspan="6"><input type="text"></th>
+                </tr>
+            </thead>
+            <tbody id="memberBody">
+                <tr>
+                    <td>100</td><td>Hans</td><td>Peter</td><td>AIV</td><td>Bauingenieur</td><td>stimmy101</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+    <div id="organDiv">
+        <table id="organTable">
+            <thead id="organHead">
+
+            </thead>
+            <tbody id="organBody">
+
+            </tbody>
+        </table>
+    </div>
+    <div id="mayorDiv">
+        <table id="mayorTable">
+            <thead id="mayorHead">
+
+            </thead>
+            <tbody id="mayorBody">
+
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
